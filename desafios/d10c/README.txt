@@ -1,0 +1,1 @@
+Esse arquivo d10c é o passo a passo ensinado em vídeo pelo professor, o desafio passado foi eu tentando criar o mesmo site sem usar passo a passo apenas usando meu conhecimento.
