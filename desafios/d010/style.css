@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "IDroid";
+    src: url("midias-d10/fontes/idroid.otf") format(opentype);
+}
+
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(181deg, #00ff73, black);
+    padding: 10px;
+    color: white;
+}
+nav{
+    text-align: left;
+    padding-right: 8px;
+    padding-bottom: 5px;
+}
+nav > a {
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+nav > a:hover{
+    background-color: #00ff734b;
+    border-radius: 7%;
+}
+main{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+main > h1{
+    font-family: IDroid;
+    color: #21603E;
+}
+main > p > span{
+    padding-left: 30px;
+}
+.apv{
+    background-image: linear-gradient(45deg, #C5ECD6, white);
+}
+.paragrafo{
+    padding-left: 30px;
+}
+main > p > a{
+    text-decoration: none;
+    color: #659179;
+    font-weight: bold;
+}
+#bugdroid{
+    text-align: center;
+}
+section#video{
+    text-align: center;
+    background-color: #1A5C38;
+    padding: 7px;
+    margin: auto;
+}
+section#extra{
+    width: 780px;
+    background-color: #2FA866;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding-top: 1px;
+}
+section#extra > p{
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+section#extra > article{
+    background-color:#C5EBD6;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+article > span{
+    padding-left: 30px;
+}
+#lista1{
+    padding-right: 184px;
+    text-decoration: underline;
+}
+#lista2{
+    padding-right: 204px;
+    text-decoration: underline;
+}
+#lista3{
+    padding-right: 206px;
+    text-decoration: underline;
+}
+#lista4{
+    padding-right: 205px;
+    text-decoration: underline;
+}
+#lista5{
+    padding-right: 157px;
+    text-decoration: underline;
+}
+#lista6{
+    padding-right: 160px;
+    text-decoration: underline;
+}
+#lista7{
+    padding-right: 97px; 
+    text-decoration: underline;   
+}
+.ul{
+    text-decoration: underline;
+}
+p > a{
+    text-decoration: none;
+    color: #10c562;
+}
+footer{
+    text-align: center;
+    background-color: #1A5C38;
+    margin-top: 18px;
+    padding: 5px;
+    color: white;
+}
+main#final{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text
+}
