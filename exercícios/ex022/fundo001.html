@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de fundo</title>
+    <style>
+        .quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        body{
+            background-image: url("imagens/wallpaper001.jpg");
+        }
+
+        #q1{
+            background-color: skyblue;
+        }
+
+        #q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        #q3{
+            background-image: url("https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
