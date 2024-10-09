@@ -1,0 +1,83 @@
+        @import "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        header{
+            
+            background-color: black;
+            color: white;
+            min-height: 160px;
+            max-height: 300px;
+            text-align: center;
+        }
+
+          header > h1{
+            font-family: "Passion One", sans-serif;
+            font-variant: small-caps;
+            padding-top: 50px;
+            font-size: 10vw;
+          }
+
+          header > p{
+            padding-bottom: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+
+          a{
+            color: white;
+            text-decoration: none;
+          }
+
+          a:hover{
+            text-decoration: underline;
+          }
+
+          main{
+            
+            font-family: 'Sriracha', cursive;
+            font-size: 47px;
+           
+          }
+
+          section{
+            padding-left: 30px;
+            font-size: 5vw;
+            padding-top: 5vh;
+            padding-bottom: 10vh;
+          }
+
+          #p1{
+            padding: 0px 0px;
+          }
+
+          #p2{
+            background: white url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
+            background-size: cover;
+          }
+
+          .trs{
+            display: inline-block;
+            background-color: rgba(2, 2, 2, 0.514);
+             color: white;
+            padding: 15px;
+          }
+
+          #p3{
+            background: white url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+            background-size: cover;
+          }
+
+          footer{
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            padding: 10px;
+          }
