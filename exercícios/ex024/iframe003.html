@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 100vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consectetur, fugit numquam sit voluptatum amet aliquam sint maiores dolor fugiat. Itaque modi eligendi omnis exercitationem ex enim inventore magnam consequuntur?</p>
+
+    <ul>
+        <li><a href="paginas-extra/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extra/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extra/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste mollitia atque delectus molestias similique! Tenetur beatae natus suscipit est libero, totam aliquam delectus! Quos id quae eveniet qui ut ullam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi error dolorum nobis, dolorem quasi. Tenetur voluptas explicabo maiores! Nam doloremque perspiciatis explicabo illum suscipit debitis esse quas earum blanditiis.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quod ab tempora molestiae cum repudiandae voluptatibus distinctio, vero corrupti ducimus, nisi aliquid. Minima, molestias dolore et consectetur voluptas totam consequuntur.</p>" id="tela" name="frame">
+        <p>
+            Infelizmente seu navegador não é compatível com isso
+        </p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum tenetur reiciendis sit sunt nulla eum provident rerum exercitationem beatae ratione excepturi distinctio, doloremque pariatur neque officia est unde aliquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia et atque pariatur assumenda voluptas maiores consectetur, necessitatibus ullam reiciendis minus dignissimos vitae enim. Reprehenderit explicabo accusantium corporis, harum sapiente quibusdam?</p>
+</body>
+</html>
